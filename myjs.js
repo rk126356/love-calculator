@@ -69,14 +69,17 @@ var x = "";
 
 function trueLove(x) {
    document.getElementById("true-love").style.visibility = "visible";
+   document.getElementById("rfbtn").style.visibility = "visible";
    return x;
 }
 function okayLove(x) {
   document.getElementById("okay-love").style.visibility = "visible";
+  document.getElementById("rfbtn").style.visibility = "visible";
   return x;
 }
 function fakeLove(x) {
   document.getElementById("fake-love").style.visibility = "visible";
+  document.getElementById("rfbtn").style.visibility = "visible";
   return x;
 }
 
